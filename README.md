@@ -8,7 +8,7 @@
 
 ```bash
 
-pip install -e git+https://github.com/loanzen/parivahan-py.git#egg=parivahan
+pip install -e git+https://github.com/niravrathod/parivahan.git#egg=parivahan
 
 ```
 
