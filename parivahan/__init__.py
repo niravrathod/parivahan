@@ -53,7 +53,7 @@ def get_parivahan_data(registration_no, captcha_api_key, request_timeout=10):
     br = mechanize.Browser()
     br.set_handle_refresh(False)
     try:
-        res = br.open('https://parivahan.gov.in/rcdlstatus/vahan/rcstatus.xhtml',
+        res = br.open('https://parivahan.gov.in/rcdlstatus/vahan/rcDlHome.xhtml',
                       timeout=request_timeout)
     except URLError as e:
         raise ParivahanTimeOutException(e.message)
